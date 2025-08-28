@@ -5,9 +5,7 @@ import Link from "next/link"
 import { useAppContext } from "@/context/AppContext";
 import Image from "next/image";
 import { useClerk, UserButton, UserProfile } from "@clerk/nextjs";
-import Cart from "@/app/cart/page";
-import AllProducts from "@/app/all-products/page";
-import { Allan } from "next/font/google";
+
 
 const Navbar = () => {
 
