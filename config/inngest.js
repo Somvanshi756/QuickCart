@@ -6,7 +6,7 @@ import User from "@/models/user";
 export const inngest = new Inngest({ id: "quickcart.next" }); 
 
 // inngest functions to send user data to a database
-export const syncUsercreation = inngest.createFunction(
+export const syncUserCreation = inngest.createFunction(
     { 
          id: 'sync-user-from-clerk'
     },
